@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1>TODO LİST</h1>
+    </header>
+    <form>
+        <div class="search">
+            <input type="text" class="to-do-input" placeholder="Add...">
+            <button class="to-do-button" type="button"> 
+                <i class="fas fa-plus-circle"></i>
+            </button>
+        </div>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="todo-conteiner">
+        <ul class="todo-list"></ul>
+    </div>
+    <div class="alert-wripper">
+        <div class="alert-success">
+            <div>Ekleme başarılı.</div>
+        </div>
+        <div class="alert-warning">
+            <div>İnput alanını doldurunuz</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
