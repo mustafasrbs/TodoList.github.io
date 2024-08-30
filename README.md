@@ -14,6 +14,5 @@ Projeyi yerel olarak kurmak için şu adımları takip edebilirsiniz:
 
 1. Bu depoyu bilgisayarınıza klonlayın:
    ```bash
- git clone https://github.com/mustafasrbs/Todolist.github.io.git
-
+   git clone https://github.com/mustafasrbs/Todolist.github.io.git
  - **Canlı Demo:** [To-Do List Uygulaması](https://mustafasrbs.github.io/Todolist.github.io/)
